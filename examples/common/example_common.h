@@ -32,6 +32,15 @@ typedef struct {
 } example_binaries_t;
 
 typedef struct {
+    partition_attr_t bootloader;
+    partition_attr_t partition_table;
+    partition_attr_t at_customize;
+    partition_attr_t ota_data_initial;
+    partition_attr_t mfg_nvs;
+    partition_attr_t esp_at;
+} esp_at_binaries_t;
+
+typedef struct {
     partition_attr_t ram_app;
 } example_ram_app_binary_t;
 

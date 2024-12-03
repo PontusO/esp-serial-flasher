@@ -3,6 +3,7 @@ sdkconfig
 sdkconfig.old
 empty_file.bin
 binaries.c
+binaries.h
 *.lock
 python_venv
 managed_components
